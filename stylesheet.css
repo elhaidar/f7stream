@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #070707;
+  color: #faf0ca;
+  font-family: "Montserrat";
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.header {
+  height: 100%;
+}
+
+.banner {
+  background-image: url("assets/star-wars.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.filter {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  color: #faf0ca;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+}
+.logo {
+  font-size: 30px;
+  padding: 20px 0;
+}
+.navbar ul {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+.navbar ul li a {
+  display: block;
+  text-decoration: none;
+  margin-right: 30px;
+  color: #faf0ca;
+  font-size: 16px;
+}
+
+.navbar ul li button a {
+  margin: 0;
+  padding: 10px 20px;
+  font-family: "Montserrat";
+}
+
+.navbar ul li button:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #faf0ca;
+}
+
+.navbar ul li button a:hover {
+  transition: all 0.3s ease-in-out;
+  color: #f95738;
+}
+
+button {
+  background-color: #f95738;
+  border: 0;
+  border-radius: 20px;
+}
+
+.banner-content {
+  padding: 5% 10%;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+}
+
+.banner-content h2 {
+  color: #ee964b;
+}
+
+.star {
+  margin-top: 10px;
+}
+
+.star i {
+  font-size: 28px;
+}
+
+.film-desc {
+  color: rgba(250, 240, 202, 0.5);
+  font-size: 14px;
+  width: 40%;
+  text-align: justify;
+}
+
+.genre {
+  font-size: 18px;
+  color: rgba(250, 240, 202, 0.8);
+}
+
+.banner-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-item img {
+  width: 150px;
+  height: 200px;
+}
+
+.card-item {
+  color: rgba(250, 240, 202, 0.5);
+  cursor: pointer;
+}
+
+.card-item p {
+  text-align: center;
+}
+
+.active {
+  transform: scale(1.3);
+  color: rgba(250, 240, 202, 1);
+}
+
+.card-item:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.3);
+  color: rgba(250, 240, 202, 1);
+}

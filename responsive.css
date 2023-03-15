@@ -1,4 +1,5 @@
 @media (max-width: 1000px) {
+  /* Bagian Header (Haidar) */
   .banner-content h1 {
     font-size: 2.5rem;
   }
@@ -27,9 +28,47 @@
   .card-item p {
     font-size: 12px;
   }
+
+  /* Bagian Main (Mas Frans) */
+  .body-webf {
+    width: 80%;
+    height: 70px;
+  }
+
+  .body-film {
+    height: 300px;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .header-right {
+    margin: 20px 0 20px 0;
+  }
+
+  .list-film {
+    padding: 20px 0;
+  }
+  .list-film p {
+    padding-top: 5px;
+  }
+
+  .body-film2 {
+    width: 100%;
+  }
+  .flex-list li {
+    width: 100%;
+    display: flex;
+  }
+  .flex-list {
+    flex-wrap: wrap;
+  }
+  .deskripsi {
+    width: 50%;
+  }
 }
 
 @media (max-width: 670px) {
+  /* Bagian Header (Haidar) */
   .logo img {
     width: 40px;
   }
@@ -41,6 +80,9 @@
   }
   .banner-content h2 {
     font-size: 16px;
+  }
+  .banner-card {
+    flex-wrap: wrap;
   }
   .card-item {
     width: 30%;
@@ -55,9 +97,30 @@
   .film-desc {
     width: 100%;
   }
+  .bx-play {
+    font-size: 25px;
+    padding: 10px 20px;
+  }
+
+  .bx-plus {
+    font-size: 25px;
+    padding: 10px 20px;
+  }
+
+  /* Bagian Main (Mas Frans) */
+  main {
+    padding: 0;
+  }
+  .li-film img {
+    border-radius: 15px;
+    height: 140px;
+    width: 100px;
+    margin: auto;
+  }
 }
 
 @media (min-width: 1920px) {
+  /* Bagian Header (Haidar) */
   .banner-content h1 {
     font-size: 4rem;
   }

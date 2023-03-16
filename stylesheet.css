@@ -107,6 +107,7 @@ button {
 }
 
 .star i {
+  color: #faf0ca;
   font-size: 28px;
 }
 
@@ -153,6 +154,10 @@ button {
 
 .play {
   display: flex;
+}
+
+.play i {
+  color: #faf0ca;
 }
 
 .bx-play {
@@ -286,7 +291,6 @@ button {
 }
 
 .top-wrapper p {
-  
   margin-bottom: 3px;
 }
 
@@ -316,7 +320,7 @@ button {
 .btn:hover {
   opacity: 1;
   background-color: #f95738;
-  transition: .8s ease;
+  transition: 0.8s ease;
 }
 
 /* Bagian Form (Kak Nisa) */
@@ -327,11 +331,11 @@ button {
   padding: 20px 0;
   margin-bottom: 50px;
 }
-.form h3 { 
+.form h3 {
   margin: 0;
   padding: 20px 0;
   font-size: 2rem;
-  color:#faf0ca;
+  color: #faf0ca;
 }
 .form textarea {
   background: transparent;
@@ -343,18 +347,18 @@ button {
   border-left: 1px solid white;
   border-top: 1px solid white;
   backdrop-filter: blur(5px);
-  box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
   font-family: Montserrat, sans-serif;
   font-weight: 500;
   backdrop-filter: blur(5px);
-  box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
   color: #f95738;
 }
 
 .form textarea:hover {
-    background: rgba(255,255,255,0.1);
-    box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn-submit {
@@ -364,22 +368,22 @@ button {
   border-radius: 5000px;
   backdrop-filter: blur(5px);
   background-color: #f95738;
-  color:#faf0ca;
+  color: #faf0ca;
   text-align: center;
   border: 0;
 }
 
 .btn-submit:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-  
+
 .btn-submit:active {
-    background: rgba(235, 142, 142, 0.559);
+  background: rgba(235, 142, 142, 0.559);
 }
 
 /*  Bagian Footer (Mas Wafa) */
 footer {
-  background-color: #0D3B66;
+  background-color: #0d3b66;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -405,14 +409,14 @@ a {
 .footer-left p {
   font-size: 14px;
   color: #bdc3c7;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .footer-left-btn {
   margin-right: 10px;
   color: #bdc3c7;
   font-size: 16px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .link:hover {
@@ -433,7 +437,7 @@ a {
   display: inline;
   font-size: 16px;
   color: #bdc3c7;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .footer-right {
